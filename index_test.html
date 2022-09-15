@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Comparison</title>
+    <title>Web Challenege</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -13,7 +13,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index_test.html">Latitude</a>
+          <a a class="navbar-brand" href="index_test.html">Latitude</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -40,46 +40,45 @@
           </div>
         </div>
       </nav>
-  ​  <!-- start of main body -->
+    <!-- Start of container -->
+<br>
+<br>
   <div class="container">
-    <br>
-    <div class="row">
-      <!-- rigth side -->
-      <div class="col col-12 divbdy">
-        <br>
-        <h1>Comparison: Latitude vs X</h1>
-        <hr>
-        <p>Click any plot to get an in-depth analysis</p>
-        <div class='row'>
-          <div class="col col-12 col-md-6">
-              <h3>   vs. Max Temperature</h3>
-            <a href="visualisations/temp.html"><img src="assets/images/Fig1.png" alt="Latitude vs. Temperature"></a>
-          </div>
-          <div class="col col-12 col-md-6">
-              <h3>   vs. Humidity</h3>
-            <a href="visualisations/humidity.html"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity"></a>
-          </div>
+    <section class="row">
+      <div class="col-lg-7 col-md-12">
+        <div class="description-content">
+          <h1 class="description-header">Summary: Latitude vs. X</h1>
+          <hr>
+          <img src="assets\images\Fig1.png" alt="Latitude vs. Max Temperature" class="description-image">
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+        </div>
+      </div>
+        <!-- rigth side -->
+        <div class="col col-12 col-md-4 divbdy">
+          <br>
+          <h2>Visualizations</h2>
+          <hr>
           <div class='row'>
-          <div class="col col-12 col-md-6">
-              <h3> vs. Cloudiness</h3>
-            <a href="visualisations/cloudiness.html"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness"></a>
-          </div>
-          <div class="col col-12 col-md-6">
-              <h3>   vs. Wind Speed</h3>
-            <a href="visualisations/wind.html"><img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed"></a>
-          </div>
+            <div class="col col-3 col-md-6">
+              <a href="visualisations/temp.html"><img src="assets/images/Fig1.png" alt="Latitude vs. Temperature"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+              <a href="visualisations/humidity.html"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+              <a href="visualisations/cloudiness.html"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+              <a href="visualisations/wind.html"><img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed"></a>
+            </div>
           </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-
-      </div>
-      <!-- end of rigth side -->
-     
-
-
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
       <!-- Set footer -->
       <footer>
         <div class="footer">&copy;Copyright Jose Sandoval 2022</div>
